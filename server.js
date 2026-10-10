@@ -5,7 +5,7 @@ const crypto = require('node:crypto');
 const fs = require('node:fs');
 const path = require('node:path');
 
-const PORT = Number(process.env.PORT || 8080);
+const PORT = Number(process.env.PORT || 1280);
 const HOST = '0.0.0.0';
 const DB_FILE = path.join(__dirname, 'data.json');
 const ADMIN_NAME = String(process.env.HUMSTER_ADMIN || 'creator').toLowerCase();
